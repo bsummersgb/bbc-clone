@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+    <title>BBC Clone</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="topbar">
+      <div class="fixedwidth">
+        <div id="logodiv">
+          <img src="images/bbclogo.png" alt="BBC Logo" />
+        </div>
+        <div id="signindiv">
+          <img src="images/signin.png" alt="Sign in Logo" />
+        </div>
+        <nav id="topmenudiv">
+          <ul>
+            <li>News</li>
+            <li>Sport</li>
+            <li>Weather</li>
+            <li>iPlayer</li>
+            <li>TV</li>
+            <li>Radio</li>
+            <li>More...</li>
+          </ul>
+        </nav>
+        <div id="searchdiv">
+          <input type="text" placeholder="Search" />
+        </div>
+      </div> <!-- fixedwidth -->
+    </div> <!-- topbar -->
+
+    <div class="break"></div>
+
+
+    <div id="newsbar">
+      <div class="fixedwidth">
+        <p id="newsheader">NEWS</p>
+      </div>
+    </div> <!-- newsbar -->
+
+
+    <nav id="topicmenu">
+      <ul class="fixedwidth">
+        <li>Home</li>
+        <li class="selected">UK</li>
+        <li>World</li>
+        <li>Business</li>
+        <li>Politics</li>
+        <li>Tech</li>
+        <li>Science</li>
+        <li>Health</li>
+        <li>Education</li>
+        <li>Entertainment &amp; Arts</li>
+        <li>Video &amp; Audio</li>
+      </ul>
+    </nav>
+
+    <div class="selected fixedwidth"></div>
+
+    <nav id="ukbar">
+      <ul class="fixedwidth">
+        <li>England</li>
+        <li>N.Ireland</li>
+        <li>Scotland</li>
+        <li>Alba</li>
+        <li>Wales</li>
+        <li>Cymru</li>
+      </ul>
+    </nav>
+
+    <main class="fixedwidth group">
+      <div class="leftcontent">
+        <h1>Labour leadership vote deadline nears</h1>
+        <div id="newsitem">
+          <p class="description">Voting in the Labour leadership contest closes at midday on Thursday,
+            amid reports that many people have still not received their ballot papers.</p>
+          <p class="clock">4 hours ago</p>
+          <p class="category">UK Politics</p>
+          <div class="hrule break"></div>
+          <p class="links break"><a href="http://www.bbc.co.uk/news/uk-politics-32654262">At-a-glance leadership guide</a><br />
+          <a href="http://www.bbc.co.uk/news/uk-politics-33892407">Huge increase in Labour electorate</a><br />
+          <a href="http://www.bbc.co.uk/news/uk-politics-34196290">'Concerns' over ballot - Burnham</a><br />
+          <a href="http://www.bbc.co.uk/news/uk-politics-33983794">Legal checks made over vote</a></p>
+        </div>
+        <img id ="labourcandidates" src="images/labourcandidates.png" alt="Labour leader candidates" />
+
+        <div class="break"></div>
+        <section id="othernews">
+          <div class="newscolumn">
+            <img src="images/helicopter.png" alt="Helicopter Rescue" />
+            <h3>Massive flooding swamps Japan city</h3>
+            <p>Tens of thousands of people abandon their homes and the city of Joso
+              is flooded as 'unprecedented' rain continues to fall in northeast Japan.
+            </p>
+            <p class="clock">20 minutes ago</p><p class="category">World</p>
+            <div class="break hrule"></div>
+            <p>PM: I wanted to see for myself</p>
+            <p>Austria to use troops in migrant crisis</p>
+          </div>
+          <div class="newscolumn" style="padding-left: 18px">
+            <img src="images/bones.png" alt="Skeleton Hands" />
+            <h3>Homo Naledi the missing link?</h3>
+            <p>Scientists have discovered a new human-like species in a burial
+              chamber deep in a cave system in South Africa.</p><div class="break"></div>
+            <p class="clock">1 hour ago</p><p class="category">Environment</p>
+            <div class="break hrule"></div><div class="break"></div>
+            <p>News of incident shocks Mexico</p><div class="break"></div>
+            <p>Profile: Sinai Province militant group</p><div class="break"></div>
+          </div>
+          <div class="newsbox">
+            <h3>Tap water advice lifted in more areas</h3>
+            <p class="clock">3 hours ago</p>
+            <p class="category">Lancashire</p>
+            <div class="break"></div>
+            <h3>Union in 'mortal danger', says Brown</h3>
+            <p class="clock">54 minutes ago</p>
+            <p class="category">Scotland</p>
+            <div class="break"></div>
+            <h3>Road reopens after air show crash</h3>
+            <p class="clock">2 hours ago</p>
+            <p class="category">UK</p>
+          </div>
+
+        </section>
+
+      </div> <!-- leftcontent -->
+
+      <aside class="watchlisten">
+        <h2>Watch/Listen</h2>
+
+        <p class="victoria">Victoria Derbyshire</p>
+        <p class="radio">BBC Radio 5 Live</p>
+
+        <div class="videoimage fleft break">
+          <img src="images/skull.png" alt="Prehistoric Skull"/>
+        </div>
+        <h4 class="fleft">Is Homo Naledi a new missing link?</h4><br />
+        <p class="clock">2 hours ago</p>
+        <p class="category" style="margin-left: 5px">Science &amp; Environment</p>
+
+        <div class="videoimage fleft break">
+          <img src="images/rescue.png" alt="Helicopter Roof Rescue"/>
+        </div>
+        <h4 class="fleft">Must See: Helicopter plucks man from roof</h4><br />
+        <p class="clock" style="border: none">1 hour ago</p>
+
+        <div class="videoimage fleft break">
+          <img src="images/radcliffe.png" alt="Paula Radcliffe"/>
+        </div>
+        <h4 class="fleft">Paula Radcliffe: 'I know that I am clean'</h4><br />
+        <p class="clock">1 hour ago</p>
+        <p class="category">UK</p>
+
+        <div class="videoimage fleft break">
+          <img src="images/ipad.png" alt="iPads"/>
+        </div>
+        <h4 class="fleft">iPad grows up at giant Apple event</h4><br />
+        <p class="clock">3 hours ago</p>
+        <p class="category">Technology</p>
+
+        <div class="videoimage fleft break">
+          <img src="images/hands.png" alt="Old Hands"/>
+        </div>
+        <h4 class="fleft">Alzheimer's: 'No data link to surgery'</h4><br />
+        <p class="clock">5 hours ago</p>
+        <p class="category">Health</p>
+
+        <div class="videoimage fleft break">
+          <img src="images/moth.png" alt="Giant Moth"/>
+        </div>
+        <h4 class="fleft">How to attract bat-sized moths</h4><br />
+        <p class="clock">1 hour ago</p>
+        <p class="category" style="margin-left: 5px" style="margin-bottom: 5px">Science &amp; Environment</p>
+
+        <div class="break"></div>
+        <section class="share">
+          <h2>Share with BBC News &gt; </h2>
+          <p class="sms">Send an SMS or MMS to 61124</p>
+          <p class="email">Email us at <strong>haveyoursay@bbc.co.uk</strong></p>
+          <p class="twitter">Follow Have Your Say on <strong>Twitter</strong></p>
+        </section>
+      </aside>
+
+    </main> <!-- fixedwidth -->
+
+
+    <div class="break"></div>
+
+    <footer>
+      <div class="fixedwidth">
+        <h2>Explore the BBC</h2>
+        <img src="images/discoverindia.png" style="margin-left:0" />
+        <img src="images/indiaquiz.png" />
+        <img src="images/indiaimages.png" />
+        <img src="images/gandhi.png" />
+      </div>
+    </footer>
+
+  </div> <!-- container -->
+</body>
+</html>
